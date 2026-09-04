@@ -1,0 +1,15 @@
+# secrets
+.env
+*.key
+secrets*
+token*
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# local state
+concurrency-gate-state.json
+concurrency-gate.log
+kanban.db
